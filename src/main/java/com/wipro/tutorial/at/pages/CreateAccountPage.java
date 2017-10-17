@@ -19,7 +19,10 @@ public class CreateAccountPage extends AbstractPage {
 	
 	public CreateAccountPage cpf (String cpf) {
 		cpfInput.clear();
-		cpfInput.sendKeys(cpf);
+		String [] elements = cpf.split("");
+		for (String c: elements){
+			cpfInput.sendKeys(c);
+		}
 		return this;
 	}
 	
