@@ -13,17 +13,16 @@ import org.springframework.stereotype.Component;
 public class DepositSteps extends AbstractSteps {
 
     @Autowired
-    private DepositPage depositPage;
+    private DepositPage depositPage = new DepositPage();
 
     @Given("I am on deposit page")
     public void isOnDepositPage(){
         Assert.assertEquals(depositPage.returnPageTitle(),"Deposit Amount");
     }
 
-    //Tive que mudar o nome de When para Then porque estava chamando o metodo da account info e nao consegui descobrir o motivo
-    @When("I select my account to deposit $cpfNumber")
+    @When("I select the account I want to deposit $cpfNumber")
     public void userSelectDepositAccount(@Named("cpfNumber") String cpfNumber){
-        depositPage.selectAccount(cpfNumber);
+        depositPage.selectAccountDeposit(cpfNumber);
     }
 
     @When("I fill the amount field $amount")

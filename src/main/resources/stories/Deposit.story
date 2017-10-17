@@ -12,8 +12,7 @@ When User clicks on menu Deposit
 
 Scenario: User is on deposit page and make a deposit
 Given I am on deposit page
-!--Tive que mudar o nome de When para Then porque estava chamando o metodo da account info e nao consegui descobrir o motivo
-When I select my account to deposit <cpfNumberDeposit>
+When I select the account I want to deposit <cpfNumberDeposit>
 When I fill the amount field <amount>
 When I click on deposit button
 Then System should show a message <message>

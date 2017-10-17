@@ -27,7 +27,7 @@ public class DepositPage extends AbstractPage {
         return pageTitle.getText();
     }
 
-    public DepositPage selectAccount(String cpfNumber){
+    public DepositPage selectAccountDeposit(String cpfNumber){
         Select ownerCpfSelect = new Select(CpfElement);
         ownerCpfSelect.selectByValue(cpfNumber);
         return this;

@@ -20,7 +20,7 @@ public class TransferSteps extends AbstractSteps {
         Assert.assertEquals(transferPage.returnPageTitle(),"Transfer Amount Between Accounts");
     }
 
-    @When("I select my account $cpfNumber")
+    @Then("I select my account to transfer $cpfNumber")
     public void userSelectAccount(@Named("cpfNumber") String cpfNumber){
         transferPage.selectMyAccount(cpfNumber);
     }
@@ -30,7 +30,7 @@ public class TransferSteps extends AbstractSteps {
         transferPage.selectTargetAccount(cpfNumber);
     }
 
-    @When("I fill the amount field $amount")
+    @When("I fill the transfer amount field that I want to transfer $transferAmount")
     public void userFillAmountInput(@Named("amount") String amount){
         transferPage.inputAmount(amount);
     }
