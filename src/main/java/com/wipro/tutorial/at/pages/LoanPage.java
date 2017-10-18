@@ -8,8 +8,17 @@ import org.openqa.selenium.support.ui.Select;
 @PageObject
 public class LoanPage extends AbstractPage {
 
+    @FindBy(className = "sb-content-desc")
+    private WebElement pageTitle;
+
+    @FindBy(xpath = "/html/body/div[1]/dl[2]/dt/a")
+    private WebElement loanMenu;
+
+    @FindBy(xpath = "//*[@href='loan']")
+    private WebElement loanSubmenu;
+
     @FindBy(id = "targetAccount")
-    private Select targetAccount;
+    private WebElement targetAccount;
 
     @FindBy(id = "ammount")
     private WebElement amountInput;
@@ -21,8 +30,23 @@ public class LoanPage extends AbstractPage {
     private WebElement returnMsg;
 
 
+    public String returnPageTitle(){
+        return pageTitle.getText();
+    }
+
+    public LoanPage selectLoanMenu(){
+        loanMenu.click();
+        return this;
+    }
+
+    public LoanPage selectLoanSubMenu(){
+        loanSubmenu.click();
+        return this;
+    }
+
     public LoanPage selectAccount(String cpfNumber){
-        targetAccount.selectByVisibleText(cpfNumber);
+        Select ownerCpfSelect = new Select(targetAccount);
+        ownerCpfSelect.selectByValue(cpfNumber);
         return this;
     }
 

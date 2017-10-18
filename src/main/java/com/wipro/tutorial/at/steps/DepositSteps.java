@@ -35,7 +35,7 @@ public class DepositSteps extends AbstractSteps {
         depositPage.clickDepositButton();
     }
 
-    @Then("System should show a message $message")
+    @Then("the System should show a message $message")
     public void returnMessage(@Named("message") String message){
         Assert.assertEquals(depositPage.getReturnMsg(),message);
     }

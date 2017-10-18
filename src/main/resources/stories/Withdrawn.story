@@ -12,10 +12,10 @@ When User clicks on menu Withdrawn
 
 Scenario: User is on withdrawn page
 Given I am on withdrawn page
-When I select my account <cpfNumber>
-When I fill the amount field <amount>
+When I select the account I want to withdrawn <cpfNumber>
+When I fill the amount I want to withdrawn <amount>
 When I click on withdrawn button
-Then System should show a message <message>
+Then System should show a withdrawn message <message>
 Examples:
 |cpfNumber  |amount|message                                 |
 |11111111111|10    |Operation completed with success        |

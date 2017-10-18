@@ -20,12 +20,12 @@ public class WithdrawnSteps extends AbstractSteps {
         Assert.assertEquals(withdrawnPage.returnPageTitle(),"Withdraw Amount");
     }
 
-    @When("I select my account $cpfNumber")
+    @When("I select the account I want to withdrawn $cpfNumber")
     public void userSelectAccount(@Named("cpfNumber") String cpfNumber){
         withdrawnPage.selectAccount(cpfNumber);
     }
 
-    @When("I fill the amount field $amount")
+    @When("I fill the amount I want to withdrawn $amount")
     public void userFillAmountInput(@Named("amount") String amount){
         withdrawnPage.inputAmount(amount);
     }
@@ -35,7 +35,7 @@ public class WithdrawnSteps extends AbstractSteps {
         withdrawnPage.clickWithdrawnButton();
     }
 
-    @Then("System should show a message $message")
+    @Then("System should show a withdrawn message $message")
     public void returnMessage(@Named("message") String message){
         Assert.assertEquals(withdrawnPage.getReturnMsg(),message);
     }

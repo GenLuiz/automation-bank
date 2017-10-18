@@ -15,9 +15,10 @@ Given I am on deposit page
 When I select the account I want to deposit <cpfNumberDeposit>
 When I fill the amount field <amount>
 When I click on deposit button
-Then System should show a message <message>
+Then the System should show a message <message>
 Examples:
-|cpfNumberDeposit|amount|message                                 |
-|11111111111     |2000  |Operation completed with success        |
-|11111111111     |0     |The ammount is invalid for the operation|
-|-1              |0     |The CPF information is invalid          |
+|cpfNumberDeposit|amount |message                                 |
+|11111111111     |200000 |Operation completed with success        |
+|33333333333     |200000 |Operation completed with success        |
+|11111111111     |0      |The ammount is invalid for the operation|
+|-1              |0      |The CPF information is invalid          |
