@@ -15,16 +15,16 @@ public class LoanSteps extends AbstractSteps {
     @Autowired
     private LoanPage loanPage;
 
-    @Given("User is on loan page")
+    @Given("User clicks on menu loan page")
     public void isOnLoanPage(){
         loanPage.selectLoanMenu();
     }
 
-    @When("loan page loads")
-    public void loanPageLoad(){
-        loanPage.selectLoanSubMenu();
-        Assert.assertEquals(loanPage.returnPageTitle(), "Credit Operations: Get Loan");
-    }
+    //@When("loan page loads")
+    //public void loanPageLoad(){
+      //  loanPage.selectLoanSubMenu();
+        //Assert.assertEquals(loanPage.returnPageTitle(), "Credit Operations: Get Loan");
+    //}
 
     @When("User select his account $cpfNumber")
     public void userSelectAccount(@Named("cpfNumber") String cpfNumber){

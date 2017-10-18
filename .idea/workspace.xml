@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50023b2e-e17a-4720-aee5-43090fc6e824" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/LoanPageSteps.java" afterPath="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/LoanSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/pages/LoanPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/pages/LoanPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/DepositSteps.java" afterPath="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/DepositSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/WithdrawnSteps.java" afterPath="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/WithdrawnSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/stories/CreateAccount.story" afterPath="$PROJECT_DIR$/src/main/resources/stories/CreateAccount.story" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/stories/Deposit.story" afterPath="$PROJECT_DIR$/src/main/resources/stories/Deposit.story" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/AllStories.java" afterPath="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/AllStories.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/LoanSteps.java" afterPath="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/LoanSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/stories/Loan.story" afterPath="$PROJECT_DIR$/src/main/resources/stories/Loan.story" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/stories/Withdrawn.story" afterPath="$PROJECT_DIR$/src/main/resources/stories/Withdrawn.story" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,41 +17,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Loan.story" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Loan.story" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/stories/Loan.story">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="95">
+              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.story" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/stories/Login.story">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transfer.story" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/stories/Transfer.story">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllStories.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AllStories.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/AllStories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="22" column="83" lean-forward="false" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateAccountSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/CreateAccountSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateAccountPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/pages/CreateAccountPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountInfoSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/AccountInfoSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountInfoPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/pages/AccountInfoPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deposit.story" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/stories/Deposit.story">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -85,8 +109,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/stories/CreateAccount.story" />
         <option value="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/LoanPageSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/pages/LoanPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/LoanSteps.java" />
         <option value="$PROJECT_DIR$/src/main/resources/stories/Deposit.story" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/LoanSteps.java" />
         <option value="$PROJECT_DIR$/src/main/resources/stories/Loan.story" />
         <option value="$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/AllStories.java" />
       </list>
@@ -116,9 +140,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1355" />
-    <option name="y" value="-11" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1942" />
     <option name="height" value="1042" />
   </component>
@@ -353,21 +377,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllStories - 2017.10.17 at 23h 44m 24s.xml">
-      <configuration name="AllStories" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllStories - 2017.10.17 at 23h 47m 55s.xml">
-      <configuration name="AllStories" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllStories - 2017.10.17 at 23h 49m 32s.xml">
-      <configuration name="AllStories" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllStories - 2017.10.17 at 23h 51m 24s.xml">
-      <configuration name="AllStories" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllStories - 2017.10.17 at 23h 54m 11s.xml">
-      <configuration name="AllStories" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AllStories - 2017.10.17 at 23h 55m 00s.xml">
       <configuration name="AllStories" configurationId="JUnit" />
     </history-entry>
@@ -383,9 +392,24 @@
     <history-entry file="AllStories - 2017.10.18 at 00h 07m 21s.xml">
       <configuration name="AllStories" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AllStories - 2017.10.18 at 09h 12m 26s.xml">
+      <configuration name="AllStories" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllStories - 2017.10.18 at 09h 14m 04s.xml">
+      <configuration name="AllStories" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllStories - 2017.10.18 at 09h 15m 17s.xml">
+      <configuration name="AllStories" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllStories - 2017.10.18 at 09h 47m 00s.xml">
+      <configuration name="AllStories" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllStories - 2017.10.18 at 09h 52m 00s.xml">
+      <configuration name="AllStories" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1355" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -395,13 +419,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.234375" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18594436" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31912568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43217665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -431,7 +455,7 @@
         <state relative-caret-position="84">
           <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -441,8 +465,8 @@
         <state relative-caret-position="272">
           <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#675#676#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -484,8 +508,8 @@
         <state relative-caret-position="204">
           <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#507#508#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -495,8 +519,8 @@
         <state relative-caret-position="533">
           <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="29" />
           <folding>
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="false" />
+            <element signature="e#1394#1395#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -514,8 +538,8 @@
         <state relative-caret-position="187">
           <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="false" />
+            <element signature="e#680#681#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -525,11 +549,11 @@
         <state relative-caret-position="793">
           <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#902#903#0" expanded="false" />
+            <element signature="e#1529#1530#0" expanded="false" />
+            <element signature="e#1571#1572#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -542,39 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/stories/Deposit.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="67" lean-forward="true" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/LoanSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/stories/Loan.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/stories/Login.story">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -583,18 +574,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/CreateAccountSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/pages/CreateAccountPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/AccountInfoSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/pages/AccountInfoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/stories/Deposit.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="67" lean-forward="false" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/steps/LoanSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/stories/Transfer.story">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wipro/tutorial/at/AllStories.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="22" column="83" lean-forward="false" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/stories/Loan.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -618,8 +665,8 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
-    <option value="clean install -U" />
     <option value="clean install" />
+    <option value="clean install -U" />
     <option value="clean -U" />
     <option value="clean -f" />
   </component>
